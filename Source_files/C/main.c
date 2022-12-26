@@ -31,5 +31,7 @@ int main()
 
     printRectangleMeasures(myRect);
 
+    deleteRectangle(myRect);
+
     return 0;
 }
