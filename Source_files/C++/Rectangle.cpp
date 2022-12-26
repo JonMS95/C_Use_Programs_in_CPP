@@ -1,4 +1,5 @@
 #include "Rectangle.hpp"
+// #include <iostream>
 
 Rectangle::Rectangle(double width, double length)
 {
@@ -8,7 +9,7 @@ Rectangle::Rectangle(double width, double length)
 
 Rectangle::~Rectangle()
 {
-    std::cout << "Rectangle object destroyed!\n";
+    
 }
 
 double Rectangle::GetWidth()
