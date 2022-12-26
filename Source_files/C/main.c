@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../C++/cppTest.hpp"
+#include "../C++/multByTwo.hpp"
 
 int main()
 {

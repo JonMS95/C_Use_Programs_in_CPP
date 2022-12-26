@@ -1,5 +1,5 @@
-#ifndef CPP_TEST_H
-#define CPP_TEST_H
+#ifndef CPP_MULT_BY_TWO_H
+#define CPP_MULT_BY_TWO_H
 
 /*
 What extern "C" does is affect linkage. C++ functions, when compiled, have their names mangled -- this is what makes overloading possible.

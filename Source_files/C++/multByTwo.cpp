@@ -1,4 +1,4 @@
-#include "cppTest.hpp"
+#include "multByTwo.hpp"
 
 int f(int i)
 {
