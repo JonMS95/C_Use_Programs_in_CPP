@@ -1,0 +1,6 @@
+#ifndef RECTANGLE_INTERFACE_HPP
+#define RECTANGLE_INTERFACE_HPP
+
+
+
+#endif
