@@ -23,7 +23,7 @@ CPP_obj_test:
 	g++ -g -c $(src_CPP_test) -o $(obj_CPP_test)
 
 exec:
-	g++ $(obj_C_test) $(obj_CPP_test) -o $(exe_main)
+	gcc $(obj_C_test) $(obj_CPP_test) -o $(exe_main)
 
 rm_obj:
 	rm -rf Object_files
