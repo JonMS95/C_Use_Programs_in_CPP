@@ -33,7 +33,7 @@ CPP_obj_rectInt:
 	g++ -g -c $(src_CPP_rectInt) -o $(obj_CPP_rectInt)
 
 exec:
-	gcc $(obj_C_main) $(obj_CPP_by2) $(obj_CPP_rect) $(obj_CPP_rectInt) -o $(exe_main)
+	g++ $(obj_C_main) $(obj_CPP_by2) $(obj_CPP_rect) $(obj_CPP_rectInt) -o $(exe_main)
 
 rm_obj:
 	rm -rf Object_files
