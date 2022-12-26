@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-// In this file, the prototype of the "Rectangle" class is defined, as if it was about to be used in a pure C++ program.
-
 class Rectangle
 {
 private:
@@ -22,3 +20,6 @@ public:
 };
 
 #endif
+
+// In this file, the prototype of the "Rectangle" class is defined, as if it was about to be used in a pure C++ program. Note that a class definition and an
+// include statement referencing a pure C++ library appear in this file. Thus, this file could never be included in a pure C file.
